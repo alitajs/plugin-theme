@@ -1,0 +1,40 @@
+{
+  "name": "@alitajs/plugin-theme",
+  "version": "0.0.2",
+  "description": "@alitajs/micro",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alitajs/plugin-theme"
+  },
+  "keywords": [
+    "umi",
+    "theme",
+    "alita"
+  ],
+  "authors": [
+    "xiaohuoni <448627663@qq.com> (https://github.com/xiaohuoni)"
+  ],
+  "license": "MIT",
+  "bugs": "http://github.com/alitajs/plugin-theme/issues",
+  "homepage": "https://github.com/alitajs/plugin-theme#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "father-build"
+  },
+  "dependencies": {
+    "umi-theme-webpack-plugin": "^1.1.0"
+  },
+  "devDependencies": {
+    "@umijs/types": "^3.2.25",
+    "@umijs/utils": "^3.2.25",
+    "father-build": "^1.18.5",
+    "umi": "3.2.25"
+  }
+}
